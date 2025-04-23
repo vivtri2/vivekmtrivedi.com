@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway&display=swap');
+
+/* @import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff"); */
+
+@layer base {
+  body {
+    @apply font-[sans-serif];
+    /* @apply font-[sans-serif] */
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
