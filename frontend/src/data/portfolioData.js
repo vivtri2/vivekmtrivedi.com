@@ -55,7 +55,7 @@ const portfolioData = [
         id: '05',
         imgUrl: portfolioImg06,
         title: 'Vendor Services Marketing Campaign Analytics Dashboard',
-        description: 'Built a real-time streaming analytics system for ad performance using Spark Structured Streaming and PySpark on Databricks, ingesting and transforming high-volume clickstream data. Clelaned up datasets were stored in Amazon S3 and queried in Snowflake for long-term reporting, with visual insights delivered through QuickSight dashboards. This pipeline enabled live tracking of impressions, clicks, and conversions, empowering marketing teams to optimize campaigns in near real-time.',
+        description: 'Built a real-time streaming analytics system for ad performance using Spark Structured Streaming and PySpark on Databricks, ingesting and transforming high-volume clickstream data. Cleaned up datasets were stored in Amazon S3 and queried in Snowflake for long-term reporting, with visual insights delivered through QuickSight dashboards. This pipeline enabled live tracking of impressions, clicks, and conversions, empowering marketing teams to optimize campaigns in near real-time.',
         tech: ["Amazon S3", "PySpark", "QuickSight", "Spark Structured Streaming", "Snowflake", "Databricks"],
         siteUrl: '#',
     },
