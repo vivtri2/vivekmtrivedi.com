@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 import HTML from '../asset/html.png';
 import CSS from '../asset/css.png';
 import TailwindLogo from '../asset/tailwind.png';
@@ -18,151 +19,58 @@ import PostmanLogo from '../asset/postman.png';
 import PythonLogo from '../asset/python.png';
 import SnowflakeLogo from '../asset/snowflake.png';
 
-
 const Skills = () => {
-    useEffect(() => {
-        AOS.init();
-    }, [])
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
-    return (
-        <div name='skills' className='w-full h-screen text-gray-300 bg-[#0a192f] font-sans'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#C23B22]'>Skills</p>
+  const skills = [
+    { img: HTML, name: "HTML" },
+    { img: CSS, name: "CSS" },
+    { img: ReactLogo, name: "React" },
+    { img: GithubLogo, name: "GitHub" },
+    { img: FirebaseLogo, name: "Firebase" },
+    { img: TailwindLogo, name: "TailwindCSS" },
+    { img: NodeJsLogo, name: "Node.js" },
+    { img: ApacheSparkLogo, name: "Apache Spark" },
+    { img: DatabricksLogo, name: "Databricks" },
+    { img: DockerLogo, name: "Docker" },
+    { img: GraphQLLogo, name: "GraphQL" },
+    { img: MongoDBLogo, name: "MongoDB" },
+    { img: PostgreSQLLogo, name: "PostgreSQL" },
+    { img: PostmanLogo, name: "Postman" },
+    { img: PythonLogo, name: "Python" },
+    { img: SnowflakeLogo, name: "Snowflake" },
+  ];
 
-                </div>
-
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 my-4'>
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1000'>
-                            <img src={HTML} className='w-20 mx-auto' alt="html icon" />
-                            <p className='my-4'>HTML</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='1500'>
-                            <img src={CSS} className='w-20 mx-auto' alt="css icon" />
-                            <p className='my-4'>CSS</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='2500'>
-
-                            <img src={ReactLogo} className='w-20 mx-auto' alt="react icon" />
-                            <p className='my-4'>ReactJs</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='3000'>
-                            <img src={GithubLogo} className='w-20 mx-auto' alt="github icon" />
-                            <p className='my-4'>Github</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='3500'>
-
-                            <img src={FirebaseLogo} className='w-20 mx-auto' alt="firebase icon" />
-                            <p className='my-4'>Firebase</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='4000'>
-
-                            <img src={TailwindLogo} className='w-20 mx-auto' alt="tailwind icon" />
-                            <p className='my-4'>Tailwind CSS</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='4500'>
-
-                            <img src={NodeJsLogo} className='w-20 mx-auto' alt="nodejs icon" />
-                            <p className='my-4'>Nodejs</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='5000'>
-
-                            <img src={ApacheSparkLogo} className='w-20 mx-auto' alt="apachespark icon" />
-                            <p className='my-4'>Apache Spark</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='5500'>
-
-                            <img src={DatabricksLogo} className='w-20 mx-auto' alt="databricks icon" />
-                            <p className='my-4'>Databricks</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='6000'>
-
-                            <img src={DockerLogo} className='w-20 mx-auto' alt="docker icon" />
-                            <p className='my-4'>Docker</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='6500'>
-
-                            <img src={GraphQLLogo} className='w-20 mx-auto' alt="graphql icon" />
-                            <p className='my-4'>GraphQL</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='7500'>
-
-                            <img src={MongoDBLogo} className='w-20 mx-auto' alt="mongodb icon" />
-                            <p className='my-4'>MongoDB</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='8000'>
-
-                            <img src={PostgreSQLLogo} className='w-20 mx-auto' alt="postgresql icon" />
-                            <p className='my-4'>PostgreSQL</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='8500'>
-
-                            <img src={PostmanLogo} className='w-20 mx-auto' alt="postman icon" />
-                            <p className='my-4'>Postman</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='9000'>
-
-                            <img src={PythonLogo} className='w-20 mx-auto' alt="python icon" />
-                            <p className='my-4'>Python</p>
-                        </div>
-                    </div>
-
-                    <div className='shadow-2xl shadow-[#040c16] hover:scale-110 duration-300 rounded-md'>
-                        <div data-aos='zoom-in-up' data-aos-duration='9500'>
-
-                            <img src={SnowflakeLogo} className='w-20 mx-auto' alt="snowflake icon" />
-                            <p className='my-4'>Snowflake</p>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
+  return (
+    <section name="skills" className="w-full min-h-screen bg-[#0a192f] text-gray-300 font-sans p-6 sm:p-8">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
+        
+        {/* Heading */}
+        <div className="pb-8">
+          <h2 className="text-4xl font-bold inline border-b-4 border-[#C23B22]">Skills</h2>
+          <p className="py-4">Technologies and tools I've worked with</p>
         </div>
-    )
-}
 
-export default Skills
+        {/* Skills Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8">
+          {skills.map((skill, idx) => (
+            <div
+              key={idx}
+              className="shadow-md shadow-[#040c16] hover:scale-110 transition-transform duration-300 rounded-md p-4"
+              data-aos="zoom-in-up"
+              data-aos-delay={idx * 100}
+            >
+              <img src={skill.img} alt={`${skill.name} icon`} className="w-20 mx-auto" />
+              <p className="mt-4">{skill.name}</p>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Skills;

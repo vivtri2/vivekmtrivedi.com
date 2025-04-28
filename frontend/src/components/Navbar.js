@@ -73,22 +73,28 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link activeClass='active' to='about' smooth={true} duration={1000}>About</Link>
-
                 </li>
                 <li>
                     <Link activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link>
-
                 </li>
                 <li>
                     <Link activeClass='active' to='work' smooth={true} duration={1000}>Work</Link>
-
                 </li>
-
                 <li>
                     <Link activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link>
-
+                </li>
+                <li>
+                    <a
+                    href="/Vivek_Trivedi_Resume.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gray-300"
+                    >
+                    Resume
+                    </a>
                 </li>
             </ul>
+
 
             {/* absolute top-0 left-0 w-full h-screen  bg-[#0a192f] backdrop-filter backdrop-blur-lg bg-opacity-30 flex flex-col justify-center items-center */}
             {/* Humberger Menu */}
@@ -119,8 +125,17 @@ const Navbar = () => {
                     <Link onClick={handleNav} activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link>
 
                 </li>
-
-
+                <li className='py-4 text-3xl font-semibold'>
+                    <a
+                        href="/Vivek_Trivedi_Resume.pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                        onClick={handleNav}  // important: close mobile menu after clicking
+                        className="text-gray-300"
+                    >
+                        Resume
+                    </a>
+                </li>
             </ul>
 
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
