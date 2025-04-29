@@ -1,3 +1,14 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /server/
+Disallow: /drafts/
+Disallow: /temp/
+Disallow: /*.env
+Disallow: /*.log
+Disallow: /*.json$
+
+Allow: /
