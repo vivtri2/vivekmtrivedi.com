@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# 🌐 Vivek Trivedi - Data Engineering Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website!  
+This site showcases my journey as a Data Engineer passionate about building scalable, secure cloud-native data platforms, with a goal of growing into a full-stack Data Architect role.
 
-## Available Scripts
+Visit the live site: [vivekmtrivedi.com](https://vivekmtrivedi.com)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 About Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I'm a certified AWS Solutions Architect Associate and Databricks Certified Developer for Apache Spark 3.0, specializing in:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Building HIPAA-compliant ETL pipelines
+- Designing real-time streaming architectures
+- Creating secure, scalable data platforms across AWS, Databricks, and Snowflake
+- Migrating frontend logic to backend services with TypeScript, GraphQL, and Docker
+- Delivering operational dashboards using AWS QuickSight and Tableau
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔨 Technologies Used
 
-### `npm run build`
+| Area | Technologies |
+|------|--------------|
+| **Cloud & Infrastructure** | AWS (Lambda, S3, EC2, CloudFormation), Azure Blob, IBM Cloud, Terraform |
+| **ETL & Pipelines** | Databricks, PySpark, Airflow, MLflow, Kafka, Kinesis, AWS Glue |
+| **Programming** | Python, Scala, TypeScript, Bash, R |
+| **Databases** | SQL, Snowflake, MongoDB, PostgreSQL, GQL |
+| **Tools** | Docker, GitHub, Jenkins, Postman, Retool, Tableau, QuickSight |
+| **Certifications** | AWS SAA-C03, Databricks Spark Developer (Scala), IBM AI Foundations |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+├── /frontend         # React.js frontend with Tailwind styling
+│    ├── /components  # Navbar, Home, About, Skills, Work, Contact, ShowCard
+│    ├── /data        # Portfolio project data
+│    └── /assets      # Icons, project images, logo
+├── /backend          # (Future expansion for API if needed)
+├── /public           # robots.txt, sitemap.xml, manifest.json, favicon
+├── README.md         # This file
