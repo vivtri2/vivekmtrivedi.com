@@ -74,12 +74,12 @@ const Navbar = () => {
                 <li>
                     <Link activeClass='active' to='about' smooth={true} duration={1000}>About</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link>
                 </li>
                 <li>
                     <Link activeClass='active' to='work' smooth={true} duration={1000}>Work</Link>
-                </li>
+                </li> */}
                 <li>
                     <Link activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link>
                 </li>
@@ -113,14 +113,14 @@ const Navbar = () => {
                     <Link onClick={handleNav} activeClass='active' to='about' smooth={true} duration={1000}>About</Link>
 
                 </li>
-                <li className='py-4 text-3xl font-semibold'>
+                {/* <li className='py-4 text-3xl font-semibold'>
                     <Link onClick={handleNav} activeClass='active' to='skills' smooth={true} duration={1000}>Skills</Link>
 
                 </li>
                 <li className='py-4 text-3xl font-semibold'>
                     <Link onClick={handleNav} activeClass='active' to='work' smooth={true} duration={1000}>Work</Link>
 
-                </li>
+                </li> */}
                 <li className='py-4 text-3xl font-semibold'>
                     <Link onClick={handleNav} activeClass='active' to='contact' smooth={true} duration={1000}>Contact</Link>
 
@@ -151,7 +151,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]'>
-                        <a href="/VVivekTrivedi_CV.pdf" rel='noreferrer' target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+                        <a href="/VivekTrivedi_CV.pdf" rel='noreferrer' target='_blank' className='flex justify-between items-center w-full text-gray-300'>
                             Resume <BsFillFileEarmarkPersonFill size={30} />
                         </a>
                     </li>

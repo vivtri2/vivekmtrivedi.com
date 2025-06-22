@@ -8,7 +8,7 @@ const About = () => {
   }, []);
 
   return (
-    <section name="about" className="w-full min-h-screen bg-[#0a192f] text-gray-300 font-sans p-6 sm:p-8">
+    <section name="about" className="w-full bg-[#0a192f] text-gray-300 font-sans p-6 sm:p-8">
       <div className="flex flex-col justify-center items-center w-full h-full">
         
         {/* Section Heading */}
@@ -32,13 +32,10 @@ const About = () => {
 
           <div data-aos="fade-up" data-aos-delay="100">
             <p className="leading-relaxed max-w-[500px]">
-              I’m a Data Engineer with a strong foundation in cloud infrastructure, secure ETL pipelines, and distributed
-              data processing. I've built HIPAA-compliant pipelines, real-time dashboards, and predictive analytics systems
-              using AWS, Databricks, PySpark, and Snowflake. 
+              I design and deliver robust AI and data architectures for industries where performance, scale, and security matter most. 
+              From large-scale data migrations to architecting full-stack AI solutions on AWS, I bring a passion for solving complex 
+              problems and empowering teams to drive business transformation.
               <br /><br />
-              Certified in AWS and Databricks, I specialize in translating complex business needs into reliable,
-              scalable, and modern data architectures. My goal is to grow into a Solutions Architect, building systems that
-              are secure, observable, and deeply aligned with business outcomes.
             </p>
           </div>
         </div>
