@@ -85,7 +85,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a
-                    href="/Vivek_Trivedi_Resume.pdf"
+                    href="/VivekTrivedi_CV.pdf"
                     target="_blank"
                     rel="noreferrer"
                     className="text-gray-300"
@@ -127,7 +127,7 @@ const Navbar = () => {
                 </li>
                 <li className='py-4 text-3xl font-semibold'>
                     <a
-                        href="/Vivek_Trivedi_Resume.pdf"
+                        href="/VivekTrivedi_CV.pdf"
                         target="_blank"
                         rel="noreferrer"
                         onClick={handleNav}  // important: close mobile menu after clicking
@@ -151,7 +151,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]'>
-                        <a href="/Vivek_Trivedi_Resume.pdf" rel='noreferrer' target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+                        <a href="/VVivekTrivedi_CV.pdf" rel='noreferrer' target='_blank' className='flex justify-between items-center w-full text-gray-300'>
                             Resume <BsFillFileEarmarkPersonFill size={30} />
                         </a>
                     </li>
