@@ -10,14 +10,14 @@ const Home = () => {
   }, []);
 
   return (
-    <section name="home" className="w-full bg-[#0a192f] font-sans pt-[150px] pb-[100px] px-6 sm:px-8">
+    <section name="home" className="w-full bg-[#FAFAFA] font-sans pt-[150px] pb-[100px] px-6 sm:px-8">
       <div className="max-w-[1000px] mx-auto">
         
         <p className="text-[#C23B22] font-bold sm:text-2xl" data-aos="fade-down">
           Hi, my name is
         </p>
 
-        <h1 className="text-5xl sm:text-6xl font-bold text-[#e1e6f5]" data-aos="fade-right" data-aos-delay="100">
+        <h1 className="text-5xl sm:text-6xl font-bold text-[#4B5563]" data-aos="fade-right" data-aos-delay="100">
           Vivek Trivedi
         </h1>
 

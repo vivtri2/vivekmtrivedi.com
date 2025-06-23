@@ -8,7 +8,7 @@ const About = () => {
   }, []);
 
   return (
-    <section name="about" className="w-full bg-[#0a192f] text-gray-300 font-sans p-6 sm:p-8">
+    <section name="about" className="w-full bg-[#FAFAFA] text-gray-300 font-sans p-6 sm:p-8"> 
       <div className="flex flex-col justify-center items-center w-full h-full">
         
         {/* Section Heading */}
@@ -26,7 +26,7 @@ const About = () => {
             data-aos="fade-right"
           >
             <p>
-              Hi, I’m <span className="text-[#C23B22]">Vivek</span>. I design data systems that scale and deliver insights.
+              Hi, I’m <span className="text-[#C23B22]">Vivek</span>. Building Data-Driven AI Solutions, from Cloud to Hardware
             </p>
           </div>
 
